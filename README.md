@@ -13,7 +13,7 @@
 >> npm audit fix --force
 >> npm start
 ```
-- De ser necesario de lo contrario omitir estos pasos 
+- De ser necesario de lo contrario omitir estos pasos ... :)
 ``` Limpiar la Caché de npm y Reinstalar Dependencias
 >> npm cache clean --force
 >> rm -rf node_modules
