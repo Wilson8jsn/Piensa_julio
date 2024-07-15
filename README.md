@@ -4,9 +4,7 @@
 
 #### _**COCKTAILS**_
 
-- List of cocktails is fetched from the external API **[Cocktails DB](https://www.thecocktaildb.com).**
-
-To view in your local system, fork the project and install the dependencies using the below commands:
+- Comandos para iniciar el proyecto ...
 
 ```shell
 >> npm install
