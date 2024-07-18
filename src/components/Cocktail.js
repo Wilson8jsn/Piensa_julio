@@ -12,7 +12,7 @@ const Cocktail = ({ id, name, image, info, glass }) => {
         <h4>{glass}</h4>
         <p>{info}</p>
         <Link to={`/cocktail/${id}`} className="btn btn-primary btn-details">
-          Details
+          Detalles
         </Link>
       </div>
     </article>

@@ -2,10 +2,16 @@ import React from 'react'
 
 export const AlcoholDegrees = () => {
   return (
-    <div>AlcoholDegrees
-      
+    <section>AlcoholDegrees
+     <form className='search-form'>
+      <div className='form-control'>
+      <label htmlFor='name'> Datos</label>
+      <input type='text' id='data'></input>
+      </div>
+      </form>
+    
 
 
-    </div>
+    </section>
   )
 }
