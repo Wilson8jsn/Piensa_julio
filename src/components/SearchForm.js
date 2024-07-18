@@ -1,27 +1,27 @@
 import React from "react";
 import { useGlobalContext } from "../context";
 
-const SearchForm = () => {
-  const { setSearchTerm } = useGlobalContext();
-  const searchValue = React.useRef("");
+  const SearchForm = () => {
+    const { setSearchTerm } = useGlobalContext();
+    const searchValue = React.useRef("");
 
-  React.useEffect(() => {
-    searchValue.current.focus();
-  }, []);
+    React.useEffect(() => {
+      searchValue.current.focus();
+    }, []);
 
-  const searchCocktail = () => {
-    setSearchTerm(searchValue.current.value);
-  };
+    const searchCocktail = () => {
+      setSearchTerm(searchValue.current.value);
+    };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-  };
+    const handleSubmit = (e) => {
+      e.preventDefault();
+    };
 
   return (
     <section className="section search">
       <form onSubmit={handleSubmit} className="search-form">
         <div className="form-control">
-          <label htmlFor="name">search your favourite cocktail</label>
+          <label htmlFor="name">Busca tu cóctel favorito</label>
           <input
             type="text"
             id="name"
